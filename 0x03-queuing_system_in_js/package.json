@@ -9,9 +9,14 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@babel/cli": "^7.25.6",
     "@babel/core": "^7.25.2",
     "@babel/preset-env": "^7.25.4",
     "@babel/preset-react": "^7.24.7",
     "@babel/preset-typescript": "^7.24.7"
+  },
+  "dependencies": {
+    "@babel/node": "^7.25.0",
+    "redis": "^4.7.0"
   }
 }
